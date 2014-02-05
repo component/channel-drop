@@ -6,7 +6,7 @@ A percentage of emitted events will not be delivered on the other endpoint.
 
 Useful for simulating connectivity issues.
 
-```
+```javascript
 var channel = require('channel');
 var latency = require('channel-latency');
 var chan = channel();

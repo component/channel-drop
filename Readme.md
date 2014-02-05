@@ -1,4 +1,3 @@
-
 # channel-drop
 
 Drop middleware for [channel](https://github.com/component/channel).
@@ -8,8 +7,10 @@ A percentage of emitted events will not be delivered on the other endpoint.
 Useful for simulating connectivity issues.
 
 ```
-// 5% of all events will be dropped
-chan.use(drop(0.05));
+var channel = require('channel');
+var latency = require('channel-latency');
+var chan = channel();
+chan.use(drop(0.05)); // 5% of all events will be dropped
 ```
 
 ## Installation

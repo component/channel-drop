@@ -8,7 +8,7 @@ Useful for simulating connectivity issues.
 
 ```javascript
 var channel = require('channel');
-var latency = require('channel-latency');
+var drop = require('channel-drop');
 var chan = channel();
 chan.use(drop(0.05)); // 5% of all events will be dropped
 ```

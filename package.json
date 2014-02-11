@@ -1,0 +1,21 @@
+{
+  "name": "component-channel-drop",
+  "version": "0.0.1",
+  "description": "drop middleware for component-channel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/component/channel-drop.git"
+  },
+  "keywords": [
+    "drop",
+    "middleware",
+    "channel"
+  ],
+  "author": "Marco Aurelio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/component/channel-drop/issues"
+  },
+  "homepage": "https://github.com/component/channel-drop"
+}
